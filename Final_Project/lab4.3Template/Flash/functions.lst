@@ -1,0 +1,68 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             lab2, CODE, READONLY
+    2 00000000         
+    3 00000000         SysTick_Handler
+                               PROC
+    4 00000000                 EXPORT           SysTick_Handler
+    5 00000000                 IMPORT           msTicks
+    6 00000000 B500            PUSH             {LR}
+    7 00000002 BD00            POP              {PC}
+    8 00000004                 ENDP
+    9 00000004         
+   10 00000004         
+   11 00000004         
+   12 00000004                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\flash\functions.d -o.\flash\functions.o -IC:\Users\admin\Docu
+ments\STM32F4-Discovery\Lab2Template\RTE -IC:\Users\admin\Documents\STM32F4-Dis
+covery\Lab2Template\RTE\Device\STM32F407VGTx -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.
+3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board -IC:\Ke
+il_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Inclu
+de -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\STM32F4xx_HAL_Driver\
+Inc --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__
+UVISION_VERSION SETA 516" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx S
+ETA 1" --list=.\flash\functions.lst functions.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+SysTick_Handler 00000000
+
+Symbol: SysTick_Handler
+   Definitions
+      At line 3 in file functions.s
+   Uses
+      At line 4 in file functions.s
+Comment: SysTick_Handler used once
+lab2 00000000
+
+Symbol: lab2
+   Definitions
+      At line 1 in file functions.s
+   Uses
+      None
+Comment: lab2 unused
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+msTicks 00000000
+
+Symbol: msTicks
+   Definitions
+      At line 5 in file functions.s
+   Uses
+      None
+Comment: msTicks unused
+1 symbol
+339 symbols in table

@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM
+-I "C:\Users\Calvin\Documents\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER
+-o .\flash\stm32f4xx_tim.o --omf_browse .\flash\stm32f4xx_tim.crf --depend .\flash\stm32f4xx_tim.d "STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c"

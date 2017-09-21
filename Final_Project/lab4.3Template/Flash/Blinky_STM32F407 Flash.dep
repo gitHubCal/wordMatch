@@ -1,0 +1,272 @@
+Dependencies for Project 'Blinky', Target 'STM32F407 Flash': (DO NOT MODIFY !)
+F (.\STM32F40xxx_41xxx_OPT.s)(0x52C6E01A)()
+F (.\main.c)(0x567E24CA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AF90A2)
+I (.\STM32F4Discovery_BSP\Board_Buttons.h)(0x565E1DB6)
+I (.\STM32F4Discovery_BSP\Board_LED.h)(0x565E1EA8)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\microphone\microphone_functions.h)(0x5660D380)
+I (.\microphone\sound_loudness.h)(0x5660D662)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\arm_math.h)(0x550C1B38)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55AF90A2)
+I (.\PWM\led_timer.h)(0x5645A22C)
+I (.\PWM\led_pwm.h)(0x5645924C)
+F (.\fputc_def.c)(0x55FB362C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\fputc_def.o --omf_browse .\flash\fputc_def.crf --depend .\flash\fputc_def.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF90A2)
+I (.\STM32F4_Startup\STM32F4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c)(0x4EAABCBA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\stm32f4xx_adc.o --omf_browse .\flash\stm32f4xx_adc.crf --depend .\flash\stm32f4xx_adc.d)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x4EAABCBA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\stm32f4xx_rcc.o --omf_browse .\flash\stm32f4xx_rcc.crf --depend .\flash\stm32f4xx_rcc.d)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c)(0x4EAABCBA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\stm32f4xx_spi.o --omf_browse .\flash\stm32f4xx_spi.crf --depend .\flash\stm32f4xx_spi.d)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c)(0x4EAABCBA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\stm32f4xx_i2c.o --omf_browse .\flash\stm32f4xx_i2c.crf --depend .\flash\stm32f4xx_i2c.d)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x4EAABCBA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\stm32f4xx_gpio.o --omf_browse .\flash\stm32f4xx_gpio.crf --depend .\flash\stm32f4xx_gpio.d)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+F (.\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x4EAABCBA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\misc.o --omf_browse .\flash\misc.crf --depend .\flash\misc.d)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c)(0x4EAABCBA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\stm32f4xx_tim.o --omf_browse .\flash\stm32f4xx_tim.crf --depend .\flash\stm32f4xx_tim.d)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+F (.\STM32F4Discovery_BSP\Keyboard.c)(0x518B8FC4)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\keyboard.o --omf_browse .\flash\keyboard.crf --depend .\flash\keyboard.d)
+I (STM32F4Discovery_BSP\Keyboard.h)(0x518B8FC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (STM32F4Discovery_BSP\GPIO_STM32F4xx.h)(0x53600CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF90A2)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+F (.\STM32F4Discovery_BSP\LED.c)(0x5165878A)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\led.o --omf_browse .\flash\led.crf --depend .\flash\led.d)
+I (STM32F4Discovery_BSP\LED.h)(0x5165878A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (STM32F4Discovery_BSP\GPIO_STM32F4xx.h)(0x53600CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF90A2)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+F (.\STM32F4Discovery_BSP\GPIO_STM32F4xx.c)(0x53600CD2)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\gpio_stm32f4xx.o --omf_browse .\flash\gpio_stm32f4xx.crf --depend .\flash\gpio_stm32f4xx.d)
+I (STM32F4Discovery_BSP\GPIO_STM32F4xx.h)(0x53600CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF90A2)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+F (.\STM32F4Discovery_BSP\Board_Buttons.c)(0x565E1D52)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\board_buttons.o --omf_browse .\flash\board_buttons.crf --depend .\flash\board_buttons.d)
+I (STM32F4Discovery_BSP\Board_Buttons.h)(0x565E1DB6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (STM32F4Discovery_BSP\Keyboard.h)(0x518B8FC4)
+F (.\STM32F4Discovery_BSP\Board_LED.c)(0x565E1EEA)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\board_led.o --omf_browse .\flash\board_led.crf --depend .\flash\board_led.d)
+I (STM32F4Discovery_BSP\Board_LED.h)(0x565E1EA8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (STM32F4Discovery_BSP\LED.h)(0x5165878A)
+F (.\STM32F4_Startup\system_stm32f4xx.c)(0x54222C62)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\system_stm32f4xx.o --omf_browse .\flash\system_stm32f4xx.crf --depend .\flash\system_stm32f4xx.d)
+I (STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+F (.\STM32F4_Startup\startup_stm32f407xx.s)(0x56611FCA)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\flash\startup_stm32f407xx.lst --xref -o .\flash\startup_stm32f407xx.o --depend .\flash\startup_stm32f407xx.d)
+F (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)()
+F (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)()
+F (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)()
+F (.\RTOS\INC\cmsis_os.h)(0x550319DE)()
+F (.\RTOS\INC\RTX_CM_lib.h)(0x550319DE)()
+F (.\RTOS\RTX_CM4.lib)(0x550B0C16)()
+F (.\RTOS\RTX_Conf_CM.c)(0x566126F2)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\rtx_conf_cm.o --omf_browse .\flash\rtx_conf_cm.crf --depend .\flash\rtx_conf_cm.d)
+I (.\RTOS\Inc\cmsis_os.h)(0x550319DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AF90A2)
+I (.\RTOS\Inc\RTX_CM_lib.h)(0x550319DE)
+F (.\microphone\microphone.c)(0x5660D3E6)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\microphone.o --omf_browse .\flash\microphone.crf --depend .\flash\microphone.d)
+I (microphone\microphone.h)(0x5465EDE0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAABCBA)
+I (microphone\pdm_filter.h)(0x4EAACAEE)
+F (.\microphone\sound_loudness.c)(0x5660D676)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\sound_loudness.o --omf_browse .\flash\sound_loudness.crf --depend .\flash\sound_loudness.d)
+I (microphone\sound_loudness.h)(0x5660D662)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\arm_math.h)(0x550C1B38)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55AF90A2)
+I (microphone\microphone.h)(0x5465EDE0)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAABCBA)
+I (microphone\pdm_filter.h)(0x4EAACAEE)
+F (.\microphone\microphone_functions.c)(0x56611B32)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\microphone_functions.o --omf_browse .\flash\microphone_functions.crf --depend .\flash\microphone_functions.d)
+I (microphone\microphone_functions.h)(0x5660D380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (microphone\microphone.h)(0x5465EDE0)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAABCBA)
+I (microphone\pdm_filter.h)(0x4EAACAEE)
+F (.\microphone\libPDMFilter_Keil.lib)(0x4EAACAEE)()
+F (.\PWM\led_pwm.c)(0x56612A2C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\led_pwm.o --omf_browse .\flash\led_pwm.crf --depend .\flash\led_pwm.d)
+I (PWM\led_pwm.h)(0x5645924C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+F (.\PWM\led_timer.c)(0x56612D68)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.\STM32F4xx_StdPeriph_Driver\inc -I.\STM32F4_Startup -I.\STM32F4Discovery_BSP -I.\RTOS\Inc -I.\microphone -I.\PWM-I "C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F407xx -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DSTM32F40_41xxx -DUSE_STM32F4_DISCO -DSTM32F4XX -DUSE_STDPERIPH_DRIVER-o .\flash\led_timer.o --omf_browse .\flash\led_timer.crf --depend .\flash\led_timer.d)
+I (PWM\led_timer.h)(0x5645A22C)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAABCBA)
+I (.\STM32F4_Startup\stm32f4xx.h)(0x529F71F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF90A2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509D6B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x5509D6B4)
+I (.\STM32F4_Startup\system_stm32f4xx.h)(0x529F71F2)
+I (.\STM32F4_Startup\stm32f4xx_conf.h)(0x52E67408)
+I (C:\Users\Calvin\Desktop\EE4144 Embedded Systems\Final_Project\lab4.3Template\RTE\RTE_Components.h)(0x567A65E2)
+I (.\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x4EAABCBA)
+I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAABCBA)
+F (.\PWM\led_pwm.h)(0x5645924C)()
+F (.\PWM\led_timer.h)(0x5645A22C)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x5423F98C)()

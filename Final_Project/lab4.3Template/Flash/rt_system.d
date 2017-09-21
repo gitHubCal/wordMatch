@@ -1,0 +1,13 @@
+.\flash\rt_system.o: RTOS\SRC\rt_System.c
+.\flash\rt_system.o: RTOS\SRC\rt_TypeDef.h
+.\flash\rt_system.o: RTOS\SRC\RTX_Config.h
+.\flash\rt_system.o: RTOS\SRC\rt_Task.h
+.\flash\rt_system.o: RTOS\SRC\rt_System.h
+.\flash\rt_system.o: RTOS\SRC\rt_Event.h
+.\flash\rt_system.o: RTOS\SRC\rt_List.h
+.\flash\rt_system.o: RTOS\SRC\rt_Mailbox.h
+.\flash\rt_system.o: RTOS\SRC\rt_Semaphore.h
+.\flash\rt_system.o: RTOS\SRC\rt_Time.h
+.\flash\rt_system.o: RTOS\SRC\rt_Timer.h
+.\flash\rt_system.o: RTOS\SRC\rt_Robin.h
+.\flash\rt_system.o: RTOS\SRC\rt_HAL_CM.h
